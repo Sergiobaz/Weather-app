@@ -48,21 +48,21 @@ const Weather = (weatherInfo) => {
         <section className="bg-white/50 p-2 py-4 rounded-2xl grid grid-cols-3 items-center sm:grid-cols-1">
           <article className="flex gap-2 items-center">
             <div className=" w-[18x]">
-              <img src="./public/wind.png" alt="" />
+              <img src="/wind.png" alt="" />
             </div>
             <span className="text-black text-[16px] font-bold">{info?.wind.speed} m/s</span>
           </article>
 
           <article className=" py-4  border-[2px] border-y-0 border-x-[(0, 0, 0, 0.23)] flex gap-2 items-center sm:px-4  sm:border-[2px] sm:border-x-0 sm:border-y-[(0, 0, 0, 0.23)] ">
             <div className="w-[18x] ">
-              <img src="./public/humidity.png" alt="" />
+              <img src="/humidity.png" alt="" />
             </div>
             <span className="text-black text-[16px] font-bold">{info?.main.humidity} %</span>
           </article>
 
           <article className="flex gap-2 items-center">
             <div className="w-[18x]">
-              <img src="./public/pressure.png" alt="" />
+              <img src="/pressure.png" alt="" />
             </div>
             <span className="text-black text-[16px] font-bold">{info?.main.pressure} hPa</span>
           </article>
