@@ -27,10 +27,14 @@ function App() {
 
   console.log(iconId);
 
+/* Pretendía intercambiar el iconId con la url de donde se saca el bg y así hacer que cambie,
+ tristemente me tiraba un bug que no pude solucion y tuve quedejarlo estatico para no demorar 
+ la entrega del proyecto */ 
+
   return (
     <>
     
-    <main className={`min-h-screen bg-[url(/img/${iconId}.jpeg)] bg-cover  px-4  text-white font-lato flex justify-center items-center`}>
+    <main className={`min-h-screen bg-[url(/img/01d.jpeg)] bg-cover  px-4  text-white font-lato flex justify-center items-center`}>
       <LoadingScreen/>
       <Weather weatherInfo={weatherInfo}/>
     </main>

@@ -29,7 +29,7 @@ const Weather = (weatherInfo) => {
   }
 
   return (
-    <section className="text-center">
+    <section className={"text-center"}>
       <h2 className="p-3 text-black text-[24px] font-black" >{info?.sys.country}, {info?.name}</h2>
 
       <section className="grid gap-4 sm:grid-cols-[auto_auto]">
