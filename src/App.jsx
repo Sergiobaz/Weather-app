@@ -25,16 +25,12 @@ function App() {
 
   const iconId = weatherInfo?.weather[0].icon
 
-  const [isLoading, setIsLoading] = useState(true)
-
-setTimeout(() => {
-    setIsLoading(false)
-}, 5000);
+  console.log(iconId);
 
   return (
     <>
     
-    <main className={`min-h-screen bg-[url(/public/img/${iconId}.jpeg)] bg-cover  px-4  text-white font-lato flex justify-center items-center`}>
+    <main className={`min-h-screen bg-[url(./public/img/${iconId}.jpeg)] bg-cover  px-4  text-white font-lato flex justify-center items-center`}>
       <LoadingScreen/>
       <Weather weatherInfo={weatherInfo}/>
     </main>

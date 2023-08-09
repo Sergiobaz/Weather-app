@@ -18,7 +18,7 @@ setTimeout(() => {
             <img src="./public/img/Vector.svg" alt="" width={125} height={125} />
             <span className=" font-lato text-xl ">Weather app</span>
             <div className="flex flex-row bg-white px-4 py-[2px] rounded-full gap-3">
-                <img src="./public/LoadingScreenIcons/icon1.png" alt="" />
+                <img src="public\LoadingScreenIcons\icon1.png" alt="" />
                 <img src="./public/LoadingScreenIcons/icon2.png" alt="" />
                 <img src="./public/LoadingScreenIcons/icon3.png" alt="" />
                 <img src="./public/LoadingScreenIcons/icon4.png" alt="" />
