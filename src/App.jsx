@@ -30,7 +30,7 @@ function App() {
   return (
     <>
     
-    <main className={`min-h-screen bg-[url(public/img/${iconId}.jpeg)] bg-cover  px-4  text-white font-lato flex justify-center items-center`}>
+    <main className={`min-h-screen bg-[url(/img/${iconId}.jpeg)] bg-cover  px-4  text-white font-lato flex justify-center items-center`}>
       <LoadingScreen/>
       <Weather weatherInfo={weatherInfo}/>
     </main>
